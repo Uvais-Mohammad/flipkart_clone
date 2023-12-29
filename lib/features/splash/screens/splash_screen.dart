@@ -1,4 +1,5 @@
-import 'package:flipkart_clone/features/products/screens/home_screen.dart';
+import 'package:flipkart_clone/features/products/screens/products_screen.dart';
+import 'package:flipkart_clone/shared/config/app_strings.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -28,12 +29,12 @@ class _SplashScreenState extends State<SplashScreen> {
             width: double.infinity,
           ),
           Text(
-            '📝',
+            '🛒',
             style: TextStyle(fontSize: 100),
             textAlign: TextAlign.center,
           ),
           Text(
-            'Notes App',
+            Strings.appName,
             style: TextStyle(fontSize: 30),
             textAlign: TextAlign.center,
           ),
