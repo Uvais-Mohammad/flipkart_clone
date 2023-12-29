@@ -11,21 +11,20 @@ class ProductList extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     AsyncValue<List<Product>> products = ref.watch(productProvider);
+    final bool isTablet = MediaQuery.sizeOf(context).width > 600;
     return products.when(
       data: (products) => Expanded(
-        child: GridView.builder(
-          itemCount: products.length,
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
-            childAspectRatio: 0.7,
-          ),
-          itemBuilder: (context, index) {
-            return ProductWidget(
-              product: products[index],
-            );
-          },
-        ),
-      ),
+          child: GridView.builder(
+              itemCount: products.length,
+              gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: isTablet ? 4 : 2,
+                childAspectRatio: 0.7,
+              ),
+              itemBuilder: (context, index) {
+                return ProductWidget(
+                  product: products[index],
+                );
+              })),
       //shimmer loading
       loading: () => Expanded(
         child: GridView.builder(
