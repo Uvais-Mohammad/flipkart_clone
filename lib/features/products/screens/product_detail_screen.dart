@@ -56,6 +56,14 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                 fontSize: 22, fontWeight: FontWeight.bold),
                           ),
                         ),
+                        const Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Text(
+                            '⭐️⭐️⭐️⭐️⭐️',
+                            style: TextStyle(
+                                fontSize: 22, fontWeight: FontWeight.bold),
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -91,6 +99,14 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                       '₹ ${product.price}',
                       style: const TextStyle(
                           fontSize: 22, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Text(
+                      '⭐️⭐️⭐️⭐️⭐️',
+                      style:
+                          TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
