@@ -27,7 +27,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                     tag: product.id,
                     child: CachedNetworkImage(
                       imageUrl: product.image,
-                      height: MediaQuery.sizeOf(context).height * 0.8,
+                      height: MediaQuery.sizeOf(context).height * 0.5,
                     ),
                   ),
                   Expanded(
