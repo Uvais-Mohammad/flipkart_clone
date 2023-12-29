@@ -36,23 +36,29 @@ The codebase adheres to a feature-level architecture, promoting a clean and modu
 
 
 ### Screenshots 
+Mobile View
 <p>
-  <img height="400" src="https://github.com/Uvais-Mohammad/notes_app/assets/63300484/e5e2a9f6-abef-4c2e-9aea-8a6903594108">
-  <img height="400" src="https://github.com/Uvais-Mohammad/notes_app/assets/63300484/91fea16d-0c62-48a9-a2bb-6e40cf9d86ab">
-  <img height="400" src="https://github.com/Uvais-Mohammad/notes_app/assets/63300484/24602c49-09bd-4a8e-8481-842067bc8098">
+  <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/9d5d1148-7a6f-4d32-9612-bf5fcfffe6d5">
+  <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/4e209135-1b5d-4132-a4b6-a936af71c7b0">
+  <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/1ea91813-25ed-4955-8727-af7a1d05c90b">
 </p>
 
+Tablet View
 <p>
-  <img height="400" src="https://github.com/Uvais-Mohammad/notes_app/assets/63300484/cdf2e48b-432f-47eb-926c-638ea05f4898">  
-  <img height="400" src="https://github.com/Uvais-Mohammad/notes_app/assets/63300484/09f6b38f-b0fd-4b6e-82fc-55a330f30300">  
+  <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/ce4782ca-f785-47fa-bf80-c20405a8bca9">
+  <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/c658bb73-5306-4b45-90e5-9df6dd57af36">
+   <img height="400" src="https://github.com/Uvais-Mohammad/flipkart_clone/assets/63300484/130848a5-8325-4261-bc94-cfe4db844bc0">
+
+
 </p>
+
 
 
 
 ### How to Run the app
 1. Clone the repository
 ```sh
-git clone https://github.com/Uvais-Mohammad/
+git clone https://github.com/Uvais-Mohammad/flipkart_clone
 ```
 2. Install dependencies
 
